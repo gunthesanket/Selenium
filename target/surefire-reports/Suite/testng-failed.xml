@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="RahulShettyAcademy.TestComponenet.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ErrorValidationTest(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Sanket"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="ErrorValidation"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest -->
+    </classes>
+  </test> <!-- ErrorValidationTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-20T16:29:45 IST" name="Suite" finished-at="2023-06-20T16:30:17 IST" duration-ms="31861">
+    <groups>
+      <group name="Sanket">
+        <method signature="ErrorValidationTest.ErrorValidation()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest@5460cf3a]" name="ErrorValidation" class="RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest"/>
+        <method signature="SubmitOrderTest.submitOrder(java.lang.String,java.lang.String)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@7331196b]" name="submitOrder" class="RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest"/>
+      </group> <!-- Sanket -->
+    </groups>
+    <test started-at="2023-06-20T16:29:45 IST" name="Test" finished-at="2023-06-20T16:30:17 IST" duration-ms="31861">
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest">
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@7331196b]" started-at="2023-06-20T16:29:45 IST" name="launchapp" finished-at="2023-06-20T16:29:50 IST" duration-ms="4637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@7331196b]" started-at="2023-06-20T16:29:50 IST" name="submitOrder" data-provider="getdata" finished-at="2023-06-20T16:29:54 IST" duration-ms="3830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanketgunthe@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sanku8983#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@7331196b]" started-at="2023-06-20T16:29:54 IST" name="closebrowser" finished-at="2023-06-20T16:29:54 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@7331196b]" started-at="2023-06-20T16:29:54 IST" name="launchapp" finished-at="2023-06-20T16:29:57 IST" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String)[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@7331196b]" started-at="2023-06-20T16:29:57 IST" name="submitOrder" data-provider="getdata" finished-at="2023-06-20T16:30:01 IST" duration-ms="3928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanketgunthe06@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sanku8983#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@7331196b]" started-at="2023-06-20T16:30:01 IST" name="closebrowser" finished-at="2023-06-20T16:30:01 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@7331196b]" started-at="2023-06-20T16:30:01 IST" name="launchapp" finished-at="2023-06-20T16:30:04 IST" duration-ms="3544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="orderHistroyTest()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@7331196b]" started-at="2023-06-20T16:30:04 IST" name="orderHistroyTest" finished-at="2023-06-20T16:30:05 IST" depends-on-methods="RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest.submitOrder" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistroyTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@7331196b]" started-at="2023-06-20T16:30:05 IST" name="closebrowser" finished-at="2023-06-20T16:30:05 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- RahulShettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest -->
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest">
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest@5460cf3a]" started-at="2023-06-20T16:30:05 IST" name="launchapp" finished-at="2023-06-20T16:30:09 IST" duration-ms="3728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="ErrorValidation()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest@5460cf3a]" started-at="2023-06-20T16:30:09 IST" name="ErrorValidation" finished-at="2023-06-20T16:30:10 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest@5460cf3a]" started-at="2023-06-20T16:30:10 IST" name="closebrowser" finished-at="2023-06-20T16:30:10 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest@5460cf3a]" started-at="2023-06-20T16:30:10 IST" name="launchapp" finished-at="2023-06-20T16:30:14 IST" duration-ms="3505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="ErrorValidationorderitem()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest@5460cf3a]" started-at="2023-06-20T16:30:14 IST" name="ErrorValidationorderitem" finished-at="2023-06-20T16:30:17 IST" duration-ms="3000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidationorderitem -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest@5460cf3a]" started-at="2023-06-20T16:30:17 IST" name="closebrowser" finished-at="2023-06-20T16:30:17 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
